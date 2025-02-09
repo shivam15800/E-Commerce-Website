@@ -1,0 +1,55 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+    @apply bg-[#f0dc82] text-gray-900;
+}
+
+/* Hero Section Styles */
+.hero {
+    @apply bg-blue-500 text-white text-center py-20;
+}
+
+/* Featured Products Section Styles */
+.featured-products {
+    @apply py-10;
+}
+
+/* Category Heading Styles */
+.category-heading {
+    @apply text-2xl font-bold text-center mb-6 text-blue-700;
+}
+
+/* Subcategory Heading Styles */
+.subcategory-heading {
+    @apply text-xl font-semibold text-center mb-4 text-blue-500;
+}
+
+/* Product Card Styles */
+.product-card {
+    @apply bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform;
+}
+
+.product-card img {
+    @apply w-full h-40 object-cover;
+}
+
+.product-card .card-content {
+    @apply p-4 flex flex-col items-center;
+}
+
+.product-card .card-title {
+    @apply font-semibold text-lg text-center;
+}
+
+.product-card .card-price {
+    @apply text-gray-500 text-sm;
+}
+
+.product-card .buy-button {
+    @apply mt-2 bg-blue-600 text-white py-1 px-3 rounded hover:bg-blue-700;
+}
+
+
+

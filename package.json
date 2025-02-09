@@ -1,0 +1,10 @@
+{  
+  "scripts": {  
+    "build:css": "tailwindcss build styles.css -o output.css --watch"  
+  },  
+  "devDependencies": {  
+    "tailwindcss": "^your-tailwind-version",  
+    "postcss": "^your-postcss-version",  
+    "autoprefixer": "^your-autoprefixer-version"  
+  }  
+}
