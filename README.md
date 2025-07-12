@@ -34,11 +34,7 @@ Upcoming features include:
 
 ---
 
-## 📸 Screenshots
 
-> *(Add some screenshots of your homepage, product cards, cart UI, etc.)*
-
----
 
 ## 🤝 Contributing
 
